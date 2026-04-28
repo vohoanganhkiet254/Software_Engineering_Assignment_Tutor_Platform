@@ -1,0 +1,160 @@
+.section-one {
+  padding: 120px 160px;
+  background-image: url('https://hcmut.edu.vn/img/content/_n8mEq7nCmmUGHhL_AELK5Fr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: auto;
+  display: flex;
+  position: relative;
+  height: 750px;
+  width: 100%;
+}
+
+.section-one::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.3;
+}
+
+.section-one .container {
+  position: relative;
+  z-index: 1;
+}
+
+.section-one .inner-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-one .inner-desc {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-one .inner-button {
+  padding: 12px 30px;
+}
+
+.section-two .container .row {
+  align-items: center;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.section-two .inner-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-two .inner-desc {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-three {
+  padding: 60px 160px;
+  background-color: #F0F4F5;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section-three .inner-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-three .course-list {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-three .course-card {
+  margin: 15px 15px;
+  text-align: left;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  min-height: 300px;
+  position: relative;
+  /* margin: 20px; */
+}
+
+.section-three .inner-course-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-three .inner-course-desc {
+  font-size: 16px;
+  margin: 15px 15px 15px 15px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-three .inner-course-tutor {
+  font-size: 14px;
+  margin: 0 15px 15px 15px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-three a {
+  margin: 0;
+  padding:0;
+}
+
+.section-three .course-card .btn-join {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-family: var(--font-main);
+  border: solid 1px #6F2DCF;
+  color: #6F2DCF;
+  border-radius: 10px;
+}
+
+.section-three .btn-view-more {
+  margin-top: 20px;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-family: var(--font-main);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6F2DCF;
+  color: white;
+}
+
+
+
+
+
+

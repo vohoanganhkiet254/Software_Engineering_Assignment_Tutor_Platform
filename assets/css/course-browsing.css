@@ -1,0 +1,79 @@
+.section-one  {
+    padding: 60px 160px;
+    background-color: white;
+    text-align: center;
+}
+
+.section-one .title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: var(--font-main);
+    color: var(--color-text);
+}
+
+.section-two {
+  padding: 60px 160px;
+  background-color: #F0F4F5;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section-two .course-list {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-two .course-card {
+  margin: 30px 20px;
+  text-align: left;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  min-height: 300px;
+  position: relative;
+  /* margin: 20px; */
+}
+
+.section-two .inner-course-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-two .inner-course-desc {
+  font-size: 16px;
+  margin: 15px 15px 15px 15px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-two .inner-course-tutor {
+  font-size: 14px;
+  margin: 0 15px 15px 15px;
+  font-family: var(--font-main);
+  color: var(--color-text);
+}
+
+.section-two a {
+  margin: 0;
+  padding:0;
+}
+
+.section-two .course-card .btn-join {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-family: var(--font-main);
+  border: solid 1px #6F2DCF;
+  color: #6F2DCF;
+  border-radius: 10px;
+}

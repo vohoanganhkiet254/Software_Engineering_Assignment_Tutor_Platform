@@ -1,0 +1,71 @@
+.schedule-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.schedule-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.inner-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-card {
+    /* background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px; */
+    padding: 40px;
+}
+.form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000;
+}
+.form-control, .form-select {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 15px;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+}
+.date-time-group {
+    display: flex;
+    gap: 10px;
+}
+.date-input {
+    flex: 1;
+}
+.time-input {
+    flex: 1;
+}
+.btn-save {
+    background-color: #f59e0b;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-save:hover {
+    background-color: #d97706;
+}
+.save-button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
