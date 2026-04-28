@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — HCMUT Tutor Support</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/dashboard.css" />
+
+  <style>
+    :root {
+      --accent: #1f6feb;
+      --sidebar-bg: #2f5083;
+      --header-bg: #061e43;
+      --muted: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Start Header -->
+    <header class="header">
+      <div class="inner-wrap">
+        <div class="inner-logo">
+          <a href="home.html"><img src="../assets/images/01_logobachkhoasang (3).png" alt="Logo" width="100px" height="auto"></a>
+        </div>
+        <div class="inner-search-box">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search...">
+        </div>
+        <div class="inner-group">
+          <a href="#" class="button-header-bell"><i class="fa-solid fa-bell"></i></a>
+          <a href="user-profile.html" class="button-header-profile"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+  <main>
+    <!-- ===== SIDEBAR ===== -->
+  <nav class="sidebar">
+    <h3>Menu</h3>
+    <a href="user-profile.html">Information</a>
+    <a href="my-enrolled-courses.html">My Enrolled Courses</a>
+    <a href="my-managed-courses.html">My Managed Courses</a>
+    <a href="dashboard.html" class="active">Dashboard</a>
+  </nav>
+
+    <!-- ===== CONTENT ===== -->
+    <section class="content">
+      <h1>Dashboard</h1>
+
+      <!-- Upcoming Schedule Section -->
+      <div class="upcoming-schedule-section">
+        <h2>📅 Upcoming Classes & Deadlines</h2>
+        <div class="dashboard-list" id="scheduleList">
+          <p>No upcoming events.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Start Footer -->
+
+
+    <footer class="footer">
+      <div class="inner-logo">
+          <a href="#"><img src="../assets/images/01_logobachkhoasang (3).png" alt="Logo" class="footer-logo" width="100px" height="auto"></a>
+      </div>
+      <div class="inner-desc">
+          <p><strong>Address:</strong> 268 Ly Thuong Kiet, District 10, Ho Chi Minh City</p>
+          <p><strong>Phone:</strong> 1900 1234 - 0987654321</p>
+          <p><strong>Email:</strong> traidepBK@hcmut.edu.vn</p>
+      </div>
+      <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </footer>
+
+
+    
+    
+    <!-- End Footer -->
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

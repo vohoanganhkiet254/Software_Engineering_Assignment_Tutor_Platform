@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Name</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./../assets/css/style.css">
+    <link rel="stylesheet" href="./../assets/css/create-course.css">
+</head>
+<body>
+    
+    <!-- Start Header -->
+    <header class="header">
+      <div class="inner-wrap">
+        <div class="inner-logo">
+          <a href="home.html"><img src="../assets/images/01_logobachkhoasang (3).png" alt="Logo" width="100px" height="auto"></a>
+        </div>
+        <div class="inner-search-box">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search...">
+        </div>
+
+        <!-- <div class="inner-login-signup">
+          <a href="#" class="button-header-login">Login</a>
+        </div> -->
+        <div class="inner-group">
+          <a href="#" class="button-header-bell"><i class="fa-solid fa-bell"></i></a>
+          <a href="profile.html" class="button-header-profile"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+
+    <div class="course-container my-5">
+        <h1 class="course-title">Create Course</h1>
+        
+        <form id="courseForm">
+            <!-- Course Name -->
+            <div class="mb-3">
+                <label for="courseName" class="form-label">Course Name:</label>
+                <input type="text" class="form-control" id="courseName" placeholder="Enter course name" required>
+            </div>
+
+            <!-- Description -->
+            <div class="mb-3">
+                <label for="description" class="form-label">Description:</label>
+                <textarea class="form-control textarea-large" id="description" placeholder="Enter course description" rows="6" required></textarea>
+            </div>
+
+            <!-- Access Rights / Open State -->
+            <div class="form-row">
+                <div>
+                    <label for="openState" class="form-label">Access Rights:</label>
+                    <select class="form-select" id="openState" required>
+                        <option value="" selected disabled>Select access level...</option>
+                        <option value="Open">Open (Everyone can access)</option>
+                        <option value="Permission">Permission (Need approval)</option>
+                        <option value="Private">Private (Only invited)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Save button -->
+            <div class="save-button-container">
+                <button type="submit" class="btn-save">Create Course</button>
+                <a href="my-managed-courses.html" class="btn-cancel">Cancel</a>
+            </div>
+        </form>
+    </div>
+
+
+     <!-- Start Footer -->
+
+
+    <footer class="footer">
+        <div class="inner-logo">
+            <a href="#"><img src="../assets/images/01_logobachkhoasang (3).png" alt="Logo" class="footer-logo" width="100px" height="auto"></a>
+        </div>
+        <div class="inner-desc">
+            <p><strong>Address:</strong> 268 Ly Thuong Kiet, District 10, Ho Chi Minh City</p>
+            <p><strong>Phone:</strong> 1900 1234 - 0987654321</p>
+            <p><strong>Email:</strong> traidepBK@hcmut.edu.vn</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+
+    
+    
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+    <!-- Custom JS -->
+    <script src="../js/create-course.js"></script>
+</body>
+</html>

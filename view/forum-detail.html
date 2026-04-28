@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Conversation</title>
+    <link rel="stylesheet" href="../assets/css/forum-detail.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="forum-header">
+            <button id="backBtn" class="back-btn">← Back to Forum</button>
+            <h1>Conversation Detail</h1>
+        </header>
+
+        <!-- Question Section -->
+        <div id="questionSection" class="question-section">
+            <div class="question-card">
+                <div class="question-content">
+                    <h2 id="questionTitle">Loading...</h2>
+                    <p id="questionBody" class="question-text">Loading question...</p>
+                    <div class="question-meta">
+                        <span id="questionDate" class="meta-date">Date: --</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Answers Section -->
+        <div class="answers-section">
+            <h3 class="answers-title">Replies</h3>
+            <div id="answersList" class="answers-container">
+                <!-- Answers with follow-ups will be loaded here -->
+            </div>
+            
+            <!-- No answers message -->
+            <div id="noAnswers" class="no-answers">
+                <p>No replies yet. Check back soon!</p>
+            </div>
+        </div>
+
+        <!-- Add Reply Section (for tutors/admins only) -->
+        <div id="tutorReplySection" class="tutor-reply-section hidden">
+            <h3>Add Your Reply</h3>
+            <textarea 
+                id="replyText" 
+                class="reply-input" 
+                placeholder="Type your reply here..."
+                rows="5"></textarea>
+            <button class="btn-submit" onclick="submitReply()">Post Reply</button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loadingSpinner" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading conversation...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error-message hidden"></div>
+    </div>
+
+    <script src="../js/forum-detail.js"></script>
+</body>
+</html>
